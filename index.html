@@ -1,253 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Itadun – Competitive Analysis</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Itadun – Competitor Analysis</title>
 
-  <style>
-    /* ------------------------------
-       ITADUN COLOR PALETTE
-    -------------------------------*/
+<style>
     :root {
-      --primary: #ff8a00;
-      --black: #1a1a1a;
-      --grey: #6e6e6e;
-      --light-grey: #f5f5f5;
-      --white: #ffffff;
-      --border: #e5e5e5;
-      --radius: 12px;
+        --primary: #ff8a00;
+        --black: #1a1a1a;
+        --grey: #555;
+        --light-grey: #fafafa;
+        --white: #ffffff;
+        --border: #e3e3e3;
+        --radius: 12px;
     }
 
     body {
-      font-family: "Inter", sans-serif;
-      background: var(--light-grey);
-      margin: 0;
-      color: var(--black);
+        font-family: Inter, sans-serif;
+        margin: 0;
+        background: var(--light-grey);
+        color: var(--black);
     }
 
     header {
-      background: var(--white);
-      padding: 28px 40px;
-      border-bottom: 1px solid var(--border);
+        background: var(--white);
+        padding: 35px 50px;
+        border-bottom: 1px solid var(--border);
     }
 
     h1 {
-      margin: 0;
-      font-size: 34px;
-      font-weight: 700;
-      color: var(--black);
+        margin: 0;
+        font-size: 36px;
+        color: var(--black);
+        font-weight: 700;
     }
 
     main {
-      padding: 40px;
-      max-width: 1100px;
-      margin: auto;
+        max-width: 1050px;
+        margin: auto;
+        padding: 40px 20px;
     }
 
     .section {
-      background: var(--white);
-      padding: 30px;
-      border-radius: var(--radius);
-      margin-bottom: 40px;
-      border: 1px solid var(--border);
+        background: var(--white);
+        padding: 30px;
+        border-radius: var(--radius);
+        margin-bottom: 40px;
+        border: 1px solid var(--border);
     }
 
     h2 {
-      margin-top: 0;
-      color: var(--primary);
-      font-size: 26px;
-      font-weight: 700;
+        color: var(--primary);
+        margin: 0 0 15px 0;
+        font-size: 28px;
+        font-weight: 700;
     }
 
-    h3 {
-      color: var(--black);
-      margin-bottom: 10px;
-      font-size: 20px;
-      font-weight: 600;
-    }
-
-    p {
-      color: var(--grey);
-      line-height: 1.6;
-      font-size: 15px;
+    p, ul, td {
+        color: var(--grey);
+        font-size: 15px;
+        line-height: 1.7;
     }
 
     ul {
-      color: var(--grey);
-      line-height: 1.7;
-      font-size: 15px;
-      padding-left: 20px;
+        padding-left: 22px;
     }
 
-    /* TABLE STYLE */
     table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-      font-size: 15px;
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
     }
 
     th {
-      background: var(--primary);
-      color: white;
-      padding: 14px;
-      text-align: left;
-      font-weight: 600;
+        background: var(--primary);
+        color: var(--white);
+        padding: 12px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 15px;
     }
 
     td {
-      padding: 14px;
-      border-bottom: 1px solid var(--border);
-      vertical-align: top;
+        padding: 14px;
+        border-bottom: 1px solid var(--border);
+        vertical-align: top;
     }
 
     tr:hover td {
-      background: #fff4e6;
+        background: #fff4e5;
     }
 
     footer {
-      text-align: center;
-      padding: 25px;
-      margin-top: 30px;
-      color: var(--grey);
-      font-size: 14px;
+        text-align: center;
+        padding: 30px;
+        font-size: 14px;
+        color: var(--grey);
+        margin-top: 40px;
     }
-  </style>
+</style>
 </head>
 
 <body>
 
 <header>
-  <h1>Itadun Competitive Analysis</h1>
+    <h1>📊 Competitor Analysis — Itadun</h1>
 </header>
 
 <main>
 
-  <!-- SECTION 1: CONTEXTUAL OVERVIEW -->
-  <div class="section">
-    <h2>Contextual Overview</h2>
-    <p>
-      The event management and ticketing industry is dominated by global players 
-      focused on large-scale events—often leaving small and mid-sized organizers underserved
-      due to high fees, complex workflows, or lack of cultural relevance.
-      Itadun fills this gap by offering a culturally-aware, mobile-first platform 
-      that supports both community events and professional gatherings at an affordable cost.
-    </p>
-  </div>
+    <!-- Contextual Overview -->
+    <div class="section">
+        <h2>Contextual Overview</h2>
+        <p>
+            The event management and ticketing market includes global and regional platforms that help organizers publish events, sell tickets, manage attendees, and drive engagement. However, many existing solutions either:
+        </p>
+        <ul>
+            <li>Prioritize enterprise-grade tools with high costs and complexity</li>
+            <li>Focus only on basic event creation without robust analytics or social features</li>
+            <li>Lack mobile-first design optimized for emerging markets</li>
+        </ul>
+        <p>
+            Itadun aims to fill this gap with an affordable, mobile-optimized, culturally aware, scalable event ecosystem that serves both community organizers and professional planners.
+        </p>
+    </div>
 
-  <!-- SECTION 2: COMPETITOR LANDSCAPE -->
-  <div class="section">
-    <h2>Competitor Landscape</h2>
-    <p>
-      The competitive ecosystem consists of platforms that specialize in event creation,
-      ticketing, social engagement, community building, or enterprise virtual events.
-      While each offers strong functionality in certain areas, few provide a unified approach
-      that blends cultural relevance, affordability, community engagement, and professional-grade tools.
-    </p>
-  </div>
+    <!-- Competitor Landscape -->
+    <div class="section">
+        <h2>Competitor Landscape</h2>
+        <p>
+            Below are key competitors analyzed across strength, weaknesses, and relevance to Itadun’s target market and positioning.
+        </p>
+    </div>
 
-  <!-- SECTION 3: COMPETITORS & KEY INSIGHTS -->
-  <div class="section">
-    <h2>Competitors & Key Insights</h2>
+    <!-- Competitors & Key Insights (Table) -->
+    <div class="section">
+        <h2>Competitors & Key Insights</h2>
 
-    <h3>Eventbrite</h3>
-    <p>
-      A global leader in ticketing with extensive integrations and analytics, but its pricing model 
-      and complex workflows often exclude small-scale organizers, particularly in culturally diverse regions.
-    </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Competitor</th>
+                    <th>Strengths</th>
+                    <th>Weaknesses</th>
+                    <th>Market Fit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Eventbrite</td>
+                    <td>Established brand; broad feature set including ticketing, analytics, integrations</td>
+                    <td>Costs can be high for small organizers; complex setup</td>
+                    <td>Strong globally — but expensive and less friendly for small/local events</td>
+                </tr>
 
-    <h3>Ticketmaster</h3>
-    <p>
-      Ideal for large commercial events. High service fees and enterprise-heavy processes 
-      make it unsuitable for everyday creators or culture-focused experiences.
-    </p>
+                <tr>
+                    <td>Meetup</td>
+                    <td>Community-centric event discovery; strong social focus</td>
+                    <td>Limited ticketing tools; not built for paid events</td>
+                    <td>Good for free or grassroots events — weak on ticket revenue</td>
+                </tr>
 
-    <h3>Meetup</h3>
-    <p>
-      Strong community-building focus, but lacks robust ticketing and event monetization features,
-      limiting its use for professional organizers.
-    </p>
+                <tr>
+                    <td>Facebook Events</td>
+                    <td>Massive user base; built-in social sharing</td>
+                    <td>No native ticketing/checkout; limited analytics</td>
+                    <td>Great discovery; poor transaction support</td>
+                </tr>
 
-    <h3>Facebook Events</h3>
-    <p>
-      Delivers unmatched audience reach but lacks reliable ticketing tools, event credibility, 
-      and structured organizer workflows.
-    </p>
+                <tr>
+                    <td>Ticketmaster</td>
+                    <td>Enterprise ticketing + seat management</td>
+                    <td>High fees; complex for small organizers</td>
+                    <td>Best for large concerts; not affordable for small/community use</td>
+                </tr>
 
-    <h3>Hopin</h3>
-    <p>
-      A leader in virtual event hosting with deep professional tools, but high costs and complexity 
-      deter small or informal event creators.
-    </p>
-  </div>
+                <tr>
+                    <td>Zeven (e.g., local apps)</td>
+                    <td>Local payment support; often mobile-first</td>
+                    <td>Basic event creation; limited management features</td>
+                    <td>Fits small markets but lacks professional depth</td>
+                </tr>
 
-  <!-- SECTION 4: FEATURE COMPARISON MATRIX -->
-  <div class="section">
-    <h2>Feature Comparison Matrix</h2>
+                <tr>
+                    <td>Airmeet / Hopin</td>
+                    <td>Solid virtual event support; community engagement tools</td>
+                    <td>Focused on online events; pricing high</td>
+                    <td>Best for virtual — not ideal as all-in-one local + global tool</td>
+                </tr>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Platform</th>
-          <th>Strengths</th>
-          <th>Limitations</th>
-        </tr>
-      </thead>
+                <tr>
+                    <td>Billetto, Tix, Quicket</td>
+                    <td>Competent event + ticketing functions</td>
+                    <td>Pricing & community features vary greatly</td>
+                    <td>Strong on sales — weak on integrated analytics or engagement</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-      <tbody>
-        <tr>
-          <td><strong>Eventbrite</strong></td>
-          <td>Global ticketing, analytics, integrations, brand trust</td>
-          <td>High fees, not culturally tailored, complex onboarding</td>
-        </tr>
+    <!-- Feature Comparison Matrix -->
+    <div class="section">
+        <h2>Feature Comparison Matrix</h2>
 
-        <tr>
-          <td><strong>Ticketmaster</strong></td>
-          <td>Enterprise infrastructure, global recognition</td>
-          <td>Very expensive, limited local/community event relevance</td>
-        </tr>
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature / Capability</th>
+                    <th>Itadun</th>
+                    <th>Eventbrite</th>
+                    <th>Meetup</th>
+                    <th>Facebook Events</th>
+                    <th>Ticketmaster</th>
+                    <th>Hopin / Airmeet</th>
+                </tr>
+            </thead>
 
-        <tr>
-          <td><strong>Meetup</strong></td>
-          <td>Community groups, local discovery, social engagement</td>
-          <td>Weak ticketing, limited event customization</td>
-        </tr>
-
-        <tr>
-          <td><strong>Facebook Events</strong></td>
-          <td>Huge reach, easy sharing</td>
-          <td>No robust ticketing, low professionalism, cluttered UI</td>
-        </tr>
-
-        <tr>
-          <td><strong>Hopin</strong></td>
-          <td>Virtual event excellence, enterprise-grade tools</td>
-          <td>Expensive, steep learning curve</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- SECTION 5: OPPORTUNITY GAP ANALYSIS -->
-  <div class="section">
-    <h2>Opportunity Gap Analysis</h2>
-
-    <ul>
-      <li>Most competitors lack cultural categorization and localized event relevance.</li>
-      <li>Affordable ticketing for small to mid-level organizers is still a market gap.</li>
-      <li>Few platforms blend community engagement with professional event tools.</li>
-      <li>Mobile-first, simplified workflows are missing across major competitors.</li>
-      <li>No major platform offers an integrated cultural discovery + ticketing ecosystem.</li>
-      <li>VIP and disability-focused attendee features are underserved across the industry.</li>
-      <li>Design simplicity and lightweight onboarding present a major differentiation opportunity.</li>
-    </ul>
-  </div>
+            <tbody>
+                <tr><td>Mobile-first optimized</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>✗</td><td>✓</td></tr>
+                <tr><td>Event creation wizard</td><td>✓</td><td>✓</td><td>✓</td><td>✗</td><td>✓</td><td>✓</td></tr>
+                <tr><td>Ticketing (paid / free)</td><td>✓</td><td>✓</td><td>✗</td><td>✗</td><td>✓</td><td>✓</td></tr>
+                <tr><td>VIP / Accessibility options</td><td>✓</td><td>✓</td><td>✗</td><td>✗</td><td>✓</td><td>✓</td></tr>
+                <tr><td>Attendee management</td><td>✓</td><td>✓</td><td>✓</td><td>Limited</td><td>✓</td><td>✓</td></tr>
+                <tr><td>Dashboard analytics</td><td>✓</td><td>✓</td><td>✗</td><td>✗</td><td>✓</td><td>Limited</td></tr>
+                <tr><td>Reviews & ratings</td><td>✓</td><td>✗</td><td>✓</td><td>✓</td><td>✗</td><td>Limited</td></tr>
+                <tr><td>Social engagement & sharing</td><td>✓</td><td>✗</td><td>✓</td><td>✓</td><td>✗</td><td>✓</td></tr>
+                <tr><td>Localized cultural events focus</td><td>✓</td><td>✗</td><td>Limited</td><td>Limited</td><td>✗</td><td>✗</td></tr>
+                <tr><td>Affordable pricing</td><td>✓</td><td>✗</td><td>✓</td><td>Free</td><td>✗</td><td>✗</td></tr>
+                <tr><td>Virtual + in-person support</td><td>✓</td><td>✓</td><td>Limited</td><td>✗</td><td>✓</td><td>✓</td></tr>
+                <tr><td>One-click social sharing</td><td>✓</td><td>✗</td><td>✓</td><td>✓</td><td>✗</td><td>✓</td></tr>
+            </tbody>
+        </table>
+    </div>
 
 </main>
 
 <footer>
-  © 2025 Itadun – Competitive Analysis
+    © 2025 Itadun — Competitor Analysis
 </footer>
 
 </body>
